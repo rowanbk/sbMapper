@@ -1,211 +1,243 @@
-4 Lotus Petal
-4 Lion's Eye Diamond
-4 Cabal Ritual
-4 Polluted Delta
-4 Infernal Tutor
-4 Brainstorm
+4 Thoughtseize
 4 Preordain
 4 Ponder
+4 Polluted Delta
+4 Lotus Petal
+4 Lion's Eye Diamond
+4 Infernal Tutor
 4 Duress
 4 Dark Ritual
-4 Thoughtseize
+4 Cabal Ritual
+4 Brainstorm
 3 Misty Rainforest
 2 Underground Sea
 2 Past in Flames
 2 Island
-1 Rain of Filth
-1 Bayou
-1 Bloodstained Mire
-1 Swamp
 1 Tendrils of Agony
-1 Ad Nauseam
+1 Swamp
 1 Dark Petition
+1 Bloodstained Mire
+1 Bayou
+1 Ad Nauseam
 Sideboard
-2 Chain of Vapor
-2 Echoing Truth
-2 Flusterstorm
-2 Abrupt Decay
+3 Echoing Truth
 2 Hurkyl’s Recall
-1 Empty the Warrens
+2 Flusterstorm
+2 Chain of Vapor
+2 Abrupt Decay
 1 Xantid Swarm
-1 Massacre
+1 Massecre
 1 Extirpate
-1 Duress
+1 Empty the Warrens
 
 ~4c Loam
--3 Duress, -2 Preordain, -1 Past in Flames, -1 Dark Petition, +2 Hurkyl’s Recall
-+2 Echoing Truth, +2 Chain of Vapor, +1 Empty the Warrens
-#Score 17.0
+-4 Duress -2 Preordain -1 Past in Flames -1 Dark Petition 
++3 Echoing Truth +2 Hurkyl’s Recall +2 Chain of Vapor +1 Empty the Warrens 
+#Efficacy 88% improved from 68% preboard
+
 
 ~BR Reanimator 
--4 Thoughtseize, -1 Rain of Filth, -1 Island, +2 Flusterstorm
-+2 Chain of Vapor, +1 Extirpate, +1 Duress
-#Score 13.0
+-4 Thoughtseize -1 Island 
++2 Flusterstorm +2 Chain of Vapor +1 Extirpate 
+#Efficacy 88% improved from 76% preboard
+
 
 ~BUG Combo
--1 Rain of Filth, -1 Preordain, -1 Cabal Ritual, +2 Abrupt Decay
-+1 Duress
-#Score 10.0
+-1 Preordain -1 Cabal Ritual 
++2 Abrupt Decay 
+#Efficacy 96% improved from 89% preboard
+
 
 ~BUG Midrange
--1 Rain of Filth, -1 Preordain, -1 Dark Petition, -1 Cabal Ritual, +2 Abrupt Decay
-+1 Empty the Warrens, +1 Duress
-#Score 13.0
+-1 Preordain -1 Dark Petition -1 Cabal Ritual 
++2 Abrupt Decay +1 Empty the Warrens 
+#Efficacy 98% improved from 90% preboard
+
 
 ~Belcher
--2 Preordain, -1 Rain of Filth, -1 Past in Flames, -1 Island, +2 Flusterstorm
-+2 Echoing Truth, +1 Duress
-#Score 18
+-2 Preordain -1 Past in Flames -1 Island 
++2 Flusterstorm +2 Echoing Truth 
+#Efficacy 96% improved from 82% preboard
+
 
 ~Burn
--3 Duress, -1 Island, -1 Ad Nauseam, +2 Echoing Truth
-+2 Chain of Vapor, +1 Empty the Warrens
-#Score 15.0
+-4 Duress -1 Island -1 Ad Nauseam 
++3 Echoing Truth +2 Chain of Vapor +1 Empty the Warrens 
+#Efficacy 92% improved from 72% preboard
+
 
 ~C/G Post
--2 Preordain, -1 Past in Flames, -1 Dark Petition, -1 Cabal Ritual, +2 Echoing Truth
-+2 Chain of Vapor, +1 Duress
-#Score 15.0
+-2 Preordain -1 Past in Flames -1 Dark Petition -1 Cabal Ritual 
++3 Echoing Truth +2 Chain of Vapor 
+#Efficacy 94% improved from 77% preboard
+
 
 ~D&T/Maverick
--4 Duress, -1 Past in Flames, -1 Dark Petition, +2 Echoing Truth
-+2 Chain of Vapor, +1 Massacre, +1 Empty the Warrens
-#Score 24
+-4 Duress -1 Preordain -1 Past in Flames -1 Dark Petition 
++3 Echoing Truth +2 Chain of Vapor +1 Massecre +1 Empty the Warrens 
+#Efficacy 98% improved from 73% preboard
+
 
 ~Delver (Wasteland)
--1 Rain of Filth, -1 Ad Nauseam, +1 Empty the Warrens
-+1 Duress
-#Score 8
+-1 Ad Nauseam 
++1 Empty the Warrens 
+#Efficacy 98% improved from 94% preboard
+
 
 ~DelverBlade
--1 Rain of Filth, -1 Preordain, +1 Massacre
-+1 Duress
-#Score 6.0
+-1 Preordain 
++1 Massecre 
+#Efficacy 94% improved from 92% preboard
+
 
 ~Dragon Stompy
--3 Duress, -2 Preordain, -1 Past in Flames, -1 Dark Petition, +2 Hurkyl’s Recall
-+2 Echoing Truth, +2 Chain of Vapor, +1 Empty the Warrens
-#Score 17.0
+-4 Duress -2 Preordain -1 Past in Flames -1 Dark Petition 
++3 Echoing Truth +2 Hurkyl’s Recall +2 Chain of Vapor +1 Empty the Warrens 
+#Efficacy 93% improved from 73% preboard
+
 
 ~Echantress
--2 Duress, -1 Past in Flames, -1 Dark Petition, +2 Echoing Truth
-+2 Chain of Vapor
-#Score 10.0
+-3 Duress -1 Past in Flames -1 Dark Petition 
++3 Echoing Truth +2 Chain of Vapor 
+#Efficacy 89% improved from 77% preboard
+
 
 ~Eldrazi
--4 Duress, -2 Preordain, -1 Past in Flames, -1 Dark Petition, +2 Hurkyl’s Recall
-+2 Echoing Truth, +2 Chain of Vapor, +1 Empty the Warrens, +1 Abrupt Decay
-#Score 27
+-4 Duress -2 Preordain -1 Past in Flames -1 Dark Petition 
++3 Echoing Truth +2 Hurkyl’s Recall +2 Chain of Vapor +1 Empty the Warrens 
+#Efficacy 90% improved from 63% preboard
+
 
 ~Elves
--1 Rain of Filth, -1 Past in Flames, -1 Island, -1 Dark Petition, +2 Flusterstorm
-+1 Duress, +1 Chain of Vapor
-#Score 14
+-1 Past in Flames -1 Island -1 Dark Petition 
++2 Flusterstorm +1 Chain of Vapor 
+#Efficacy 93% improved from 84% preboard
+
 
 ~Goblins
--4 Duress, -1 Past in Flames, -1 Dark Petition, +2 Echoing Truth
-+2 Chain of Vapor, +1 Empty the Warrens, +1 Abrupt Decay
-#Duplicate 2's:  S1_Massacre S2_Abrupt Decay
-#Score 18
+-4 Duress -1 Past in Flames -1 Dark Petition 
++3 Echoing Truth +2 Chain of Vapor +1 Empty the Warrens 
+#Efficacy 90% improved from 73% preboard
+
 
 ~Grixis Control
--1 Rain of Filth, -1 Lotus Petal, -1 Cabal Ritual, +2 Flusterstorm
-+1 Duress
-#Score 10
+-1 Lotus Petal -1 Cabal Ritual 
++2 Flusterstorm 
+#Efficacy 94% improved from 89% preboard
+
 
 ~High Tide
--2 Preordain, -1 Rain of Filth, -1 Island, -1 Dark Petition, +2 Flusterstorm
-+1 Xantid Swarm, +1 Extirpate, +1 Duress
-#Score 17.0
+-2 Preordain -1 Island -1 Dark Petition 
++2 Flusterstorm +1 Xantid Swarm +1 Extirpate 
+#Efficacy 100% improved from 88% preboard
+
 
 ~Infect
--2 Preordain, -1 Rain of Filth, -1 Past in Flames, -1 Island, -1 Dark Petition, +2 Flusterstorm
-+2 Abrupt Decay, +1 Xantid Swarm, +1 Duress
-#Score 20.0
+-2 Preordain -1 Past in Flames -1 Island -1 Dark Petition 
++2 Flusterstorm +2 Abrupt Decay +1 Xantid Swarm 
+#Efficacy 96% improved from 81% preboard
+
 
 ~LED Dredge
--4 Thoughtseize, -1 Island, +2 Flusterstorm
-+1 Extirpate, +1 Duress, +1 Chain of Vapor
-#Score 18
+-4 Thoughtseize -1 Island 
++2 Flusterstorm +2 Chain of Vapor +1 Extirpate 
+#Efficacy 88% improved from 76% preboard
+
 
 ~Lands
--4 Thoughtseize, -1 Past in Flames, -1 Dark Petition, +2 Echoing Truth
-+2 Chain of Vapor, +1 Hurkyl’s Recall, +1 Duress
-#Score 22
+-4 Thoughtseize -1 Past in Flames -1 Dark Petition 
++3 Echoing Truth +2 Chain of Vapor +1 Hurkyl’s Recall 
+#Efficacy 90% improved from 73% preboard
+
 
 ~Manaless Dredge
--1 Rain of Filth, -1 Island, -1 Dark Petition, +1 Xantid Swarm
-+1 Extirpate, +1 Duress
-#Score 10.0
+-1 Island -1 Dark Petition 
++1 Xantid Swarm +1 Extirpate 
+#Efficacy 97% improved from 90% preboard
+
 
 ~Merfolk
--4 Preordain, -1 Rain of Filth, -1 Past in Flames, -1 Dark Petition, +2 Hurkyl’s Recall
-+2 Echoing Truth, +2 Abrupt Decay, +1 Duress
-#Score 25
+-4 Preordain -1 Past in Flames -1 Dark Petition 
++3 Echoing Truth +2 Abrupt Decay +1 Hurkyl’s Recall 
+#Efficacy 92% improved from 69% preboard
+
 
 ~Miracles
--1 Rain of Filth, -2 Lotus Petal, -1 Cabal Ritual, +2 Abrupt Decay
-+1 Extirpate, +1 Duress
-#Score 16
+-2 Lotus Petal -1 Cabal Ritual 
++2 Abrupt Decay +1 Extirpate 
+#Efficacy 100% improved from 88% preboard
+
 
 ~Nic Fit
--4 Duress, +2 Echoing Truth
-+2 Chain of Vapor
-#Score 8.0
+-4 Duress 
++3 Echoing Truth +1 Chain of Vapor 
+#Efficacy 89% improved from 78% preboard
+
 
 ~Omni/SnS
--2 Preordain, -1 Rain of Filth, -1 Past in Flames, -1 Island, +2 Flusterstorm
-+1 Xantid Swarm, +1 Duress, +1 Chain of Vapor
-#Score 19
+-2 Preordain -1 Past in Flames -1 Island 
++2 Flusterstorm +1 Xantid Swarm +1 Chain of Vapor 
+#Efficacy 97% improved from 84% preboard
+
 
 ~Painter
--2 Preordain, -2 Duress, -1 Past in Flames, -1 Dark Petition, +2 Hurkyl’s Recall
-+2 Echoing Truth, +2 Chain of Vapor
-#Score 18.0
+-3 Duress -2 Preordain -1 Past in Flames -1 Dark Petition 
++3 Echoing Truth +2 Hurkyl’s Recall +2 Chain of Vapor 
+#Efficacy 94% improved from 73% preboard
+
 
 ~Phoenix
--1 Rain of Filth, -1 Preordain, -1 Past in Flames, -1 Dark Petition, +2 Flusterstorm
-+1 Extirpate, +1 Duress
-#Score 13.0
+-1 Preordain -1 Past in Flames -1 Dark Petition 
++2 Flusterstorm +1 Extirpate 
+#Efficacy 98% improved from 89% preboard
+
 
 ~Pox
--4 Thoughtseize, -1 Duress, +2 Flusterstorm
-+2 Chain of Vapor, +1 Empty the Warrens
-#Score 13.0
+-4 Thoughtseize -1 Duress 
++2 Flusterstorm +2 Chain of Vapor +1 Empty the Warrens 
+#Efficacy 84% improved from 72% preboard
+
 
 ~Steel Stompy
--3 Duress, -2 Preordain, -1 Past in Flames, -1 Dark Petition, +2 Hurkyl’s Recall
-+2 Echoing Truth, +2 Chain of Vapor, +1 Empty the Warrens
-#Score 19.0
+-4 Duress -2 Preordain -1 Past in Flames -1 Dark Petition 
++3 Echoing Truth +2 Hurkyl’s Recall +2 Chain of Vapor +1 Empty the Warrens 
+#Efficacy 96% improved from 73% preboard
+
 
 ~Stoneblade
--1 Rain of Filth, -2 Lotus Petal, -1 Dark Petition, -1 Cabal Ritual, +2 Abrupt Decay
-+1 Massacre, +1 Extirpate, +1 Duress
-#Score 17.0
+-2 Lotus Petal -1 Dark Petition -1 Cabal Ritual 
++2 Abrupt Decay +1 Massecre +1 Extirpate 
+#Efficacy 100% improved from 88% preboard
+
 
 ~Storm
--2 Preordain, -1 Rain of Filth, -1 Island, +2 Flusterstorm
-+1 Extirpate, +1 Duress
-#Score 12.0
+-2 Preordain -1 Island 
++2 Flusterstorm +1 Extirpate 
+#Efficacy 100% improved from 90% preboard
+
 
 ~Tezzerator
--4 Preordain, -1 Rain of Filth, -1 Past in Flames, -1 Dark Petition, +2 Echoing Truth
-+2 Chain of Vapor, +2 Abrupt Decay, +1 Duress
-#Score 23.0
+-4 Preordain -1 Past in Flames -1 Dark Petition 
++3 Echoing Truth +2 Abrupt Decay +1 Chain of Vapor 
+#Efficacy 93% improved from 73% preboard
+
 
 ~Turbo Depths
--4 Duress, -1 Past in Flames, -1 Dark Petition, +2 Flusterstorm
-+2 Echoing Truth, +2 Chain of Vapor
-#Score 20.0
+-4 Duress -1 Past in Flames -1 Dark Petition 
++3 Echoing Truth +2 Flusterstorm +1 Chain of Vapor 
+#Efficacy 100% improved from 76% preboard
+
 
 ~UB Reanimator
--2 Preordain, -1 Rain of Filth, -1 Past in Flames, -1 Island, +2 Flusterstorm
-+1 Xantid Swarm, +1 Extirpate, +1 Duress
-#Score 16.0
+-2 Preordain -1 Past in Flames -1 Island 
++2 Flusterstorm +1 Xantid Swarm +1 Extirpate 
+#Efficacy 97% improved from 85% preboard
+
 
 ~UR (No Wasteland)
--2 Preordain, -1 Rain of Filth, -1 Ad Nauseam, +2 Abrupt Decay
-+1 Empty the Warrens, +1 Duress
-#Score 16
+-2 Preordain -1 Ad Nauseam 
++2 Abrupt Decay +1 Empty the Warrens 
+#Efficacy 98% improved from 86% preboard
 
-Total score: 16.1
+
+Average postboard efficacy:95.33%
