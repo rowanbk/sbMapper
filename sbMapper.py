@@ -126,28 +126,95 @@ def evaluate(name,scoreList,main,side,outfile,max_score):
         outfile.write('#No changes, efficacy '+preScore+'%\n\n')
         return(totval)
 
+    kept = {card:round(scoreList[card]) for card in main if card not in takeOut or main.count(card) > takeOut[card]}
+    left = {card:round(scoreList[card]) for card in side if card not in bringIn or side.count(card) > bringIn[card]}
+    left = {card:score for card,score in left.items() if card not in kept} 
+    minKept = min(kept.values()) 
+    maxLeft = max(left.values())
     valOut = 0
     valIn = 0
+
+    maybeAdd = {}
+    maybeCut = {}
+    for card,score in left.items():
+        if score == maxLeft:
+            count = side.count(card)
+            if card in bringIn:
+                count -= bringIn[card]
+            maybeAdd[card] = count
+
+    for card,score in kept.items():
+        if score == minKept:
+            count = main.count(card)
+            if card in takeOut:
+                count -= takeOut[card]
+            maybeCut[card] = count
+
+
+    while sum(maybeAdd.values()) > sum(maybeCut.values()):
+        for k,v in maybeAdd.items():
+            if v == 1:
+                maybeAdd.pop(k)
+                break
+            elif v == min(maybeAdd.values()):
+                maybeAdd[k] = v - 1
+                break
+
+    while sum(maybeAdd.values()) < sum(maybeCut.values()):
+        for k,v in maybeCut.items():
+            if v == 1:
+                maybeCut.pop(k)
+                break
+            elif v == min(maybeCut.values()):
+                maybeCut[k] = v - 1
+                break
+
+
     for card,count in sorted(takeOut.items(),key=lambda x: str(x[1])+x[0],reverse = True):
         outfile.write('-'+str(count)+' '+card+' ')
         valOut += int(count)*min(max_score,round(scoreList[card]))
+
+    if minKept == maxLeft:
+        outfile.write('OPTION: ')
+        for card,count in maybeCut.items():
+            outfile.write('-'+str(count)+' '+card+' ')
+
     outfile.write('\n')
     for card,count in sorted(bringIn.items(),key=lambda x: str(x[1])+x[0],reverse = True):
         outfile.write('+'+str(count)+' '+card+' ')
         valIn += int(count)*min(max_score,round(scoreList[card]))
 
+    if minKept == maxLeft:
+        outfile.write('OPTION: ')
+        for card,count in maybeAdd.items():
+            outfile.write('+'+str(count)+' '+card+' ')
+
     outfile.write('\n')
-    val = valIn - valOut
-    if maxOut == minIn:
-        outfile.write('#Chose between multiple '+str(minIn)+'\'s: ')
+    written = False
+    moverlap = {}
+    soverlap = {}
+    if maxOut == minKept:
         for card in cards:
-            mcopies = main.count(card)
             scopies = side.count(card)
-            if scopies>0 and round(scoreList[card]) == minIn and mcopies==0:
-                outfile.write(" S"+str(scopies)+"_"+card)
-            if mcopies>0 and round(scoreList[card]) == minIn:
-                outfile.write(" M"+str(mcopies)+"_"+card)
+            mcopies = main.count(card)
+            if mcopies>0 and round(scoreList[card]) == maxOut:
+                moverlap[card] = mcopies
+            if scopies>0 and round(scoreList[card]) == minIn and mcopies==0 and card not in bringIn:
+                soverlap[card] = scopies
+
+    if len(moverlap) > 1:
+        outfile.write('#Chose between multiple maindeck '+str(maxOut)+'\'s:')
+        for card,copies in moverlap.items():
+            outfile.write(" "+str(copies)+" "+card)
         outfile.write('\n')
+
+    if len(soverlap) > 1:
+        outfile.write('#Chose between multiple sideboard '+str(maxOut)+'\'s:')
+        for card,copies in soverlap.items():
+            outfile.write(" "+str(copies)+" "+card)
+        outfile.write('\n')
+
+    val = valIn - valOut
     posScore = str(int((100*(totval+val))/max_effic))
     outfile.write('#Efficacy '+posScore+'% improved from '+preScore+'% preboard\n')
     outfile.write('\n\n')
@@ -189,10 +256,11 @@ def argparser():
     parser.add_argument('-m',nargs='?', default=6)
     args = parser.parse_args()
     fname = vars(args)['path']
-    basefile = "baselist.txt"
+    fname = fname.split('.',1)[0]
+    basefile = fname+".txt"
     outfile = open(vars(args)['o'],"w")
     max_score = int(vars(args)['m'])
-    scoreListDict,main,side,teirList = readExcelFile(fname)
+    scoreListDict,main,side,teirList = readExcelFile(fname+'.xlsx')
     writelist(main,side,basefile,outfile)
     eval_list(scoreListDict,main,side,teirList,outfile,max_score)
 
